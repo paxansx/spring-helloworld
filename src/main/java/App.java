@@ -12,8 +12,6 @@ public class App {
         HelloWorld bean1 =
                 (HelloWorld) applicationContext.getBean("helloworld");
         System.out.println(bean1.getMessage());
-        boolean check = bean==bean1;
-
         System.out.println(bean==bean1);
 
 
